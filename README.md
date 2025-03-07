@@ -1,3 +1,5 @@
+# 修复更新homeassistant core 2025.3.0以后无法加载的问题！
+
 # MosHome (Bull IoT) for Home Assistant
 
 [![通过HACS添加集成](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=stevenjoezhang&repository=hass-iotbull&category=integration)
