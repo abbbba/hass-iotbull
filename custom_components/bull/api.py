@@ -301,7 +301,7 @@ class BullApi:
                 info = db["params"]["status"]
                 cb(iotId, "status", info["value"])
 
-        client = mqtt.Client(clientId)
+        client = mqtt.Client(client_id=clientId, callback_api_version=1)
         client.on_connect = on_connect
         client.reconnect_delay_set(min_delay=15, max_delay=120)
         client.username_pw_set(self.openid, self.access_token)
